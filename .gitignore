@@ -1,1 +1,5 @@
 db.sqlite3
+__pycache__/
+*.pyc
+blog/templatetags/__pycache__/
+mysite/__pycache__/

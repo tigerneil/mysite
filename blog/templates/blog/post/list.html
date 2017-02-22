@@ -32,7 +32,7 @@
     </p>
 
 
-    {{ post.body|truncatewords:30|linebreaks }}
+    {{ post.body|markdown|truncatewords_html:30 }}
     <p class="tags">Tags: {{ post.tags.all|join:", " }}</p>
 
   {% endfor %}
